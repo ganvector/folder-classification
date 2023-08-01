@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "folder-classification"
+version = "0.1.0"
+description = ""
+authors = ["Vitor Nascimento"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+watchdog = "^3.0.0"
+
+[tool.poetry.scripts]
+start = "python -m src.main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
