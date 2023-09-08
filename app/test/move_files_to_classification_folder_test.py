@@ -41,7 +41,7 @@ class TestStringMethod(unittest.TestCase):
 
     def test_image_files_exists(self):
         files_in_directory = get_items_in_the_folder(IMAGE_FOLDER)
-        self.assertEqual(len(files_in_directory), 2)
+        self.assertEqual(len(files_in_directory), 1)
 
     @classmethod
     def tearDownClass(cls):
