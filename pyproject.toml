@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "folder-classification"
+name = "app"
 version = "0.1.0"
 description = ""
 authors = ["Vitor Nascimento"]
@@ -10,7 +10,7 @@ python = "^3.9"
 watchdog = "^3.0.0"
 
 [tool.poetry.scripts]
-start = "python -m src.main"
+start = 'scripts:start'
 
 [build-system]
 requires = ["poetry-core"]
