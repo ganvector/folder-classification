@@ -8,5 +8,5 @@ class FileItem:
         self.file = f'{base_name}{extension}'
         self.extension = extension
 
-    def __str__(self):
-        return self.file
+    def __repr__(self):
+        return f'FileItem(file_name="{self.file}")'
